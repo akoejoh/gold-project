@@ -1,0 +1,5 @@
+his is a common question among new users who’ve been using Windows and have recently switched to Linux. In Windows, we’re used to logging into the adminiZZZZstrator account and using things directly as an administrator.
+
+User Access Control (UAC) was introduced in Windows because staying logged in as an Administrator posed a very obvious security risk. The fact that any software running under the user has full privileges to perform any action on the system. With UAC, most applications run with limited access and only when a system file needs to be modified, Windows prompts the user asking for permission.
+
+This is exactly why we need sudo and root users to be different. If you use root as your user regularly, you’ll be exposing yourself to the risk of giving a malicious application full access to your 
